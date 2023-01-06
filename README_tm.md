@@ -9,7 +9,7 @@ After trying several out the decission went to a model which worked on the cifar
 from keras.datasets import cifar10 
 ```
 The accuracy was around 80% with 60,000 images, using 50,000 for training and 10,000 for validation from the cifar10 dataset.
-With our low amout of data the precision is at around 60%. 
+With our low amout of data the precision is up to  around 60%. 
 
 
 ## Model snippit:
