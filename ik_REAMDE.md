@@ -10,9 +10,9 @@ Ideally, we would gather a lot of images with different fill levels over a long 
 
 The dataset was split to 101 classes, which represent fill levels between 0 and 100%:
 
-- Train - 70% (135 images) <br>
-- Validation - 20% (38 images) <br>
-- Test - 10% (10 images) <br>
+- Train - 70% (145 images) <br>
+- Validation - 20% (41 images) <br>
+- Test - 10% (20 images) <br>
 
 The images were grayscaled and rescaled to 64x64px.
 
