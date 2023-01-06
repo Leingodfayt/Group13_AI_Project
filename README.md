@@ -8,9 +8,6 @@ After trying several out the decission went to a model which worked on the cifar
 ```python 
 from keras.datasets import cifar10 
 ```
-The accuracy was around 80% with 60,000 images, using 50,000 for training and 10,000 for validation from the cifar10 dataset.
-With our low amout of data the precision is up to  around 60%. 
-
 
 ## Model snippit:
 ```python
@@ -44,4 +41,15 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 
 print(model.summary())
 ```
+
+### Possible problems
+With too high workload the kernel can crash. This happens mostly on the remote AI server.
+On the local machine under Windows 10 there was nearly no issues.
+Tensorflow only uses the CPU if certain packages of NVidia hadn't been installed.
+
+
+### Conclusion
+The accuracy was around 80% with 60,000 images, using 50,000 for training and 10,000 for validation from the cifar10 dataset.
+With our dataset of 206 images, the accuracy is roughly 50-60%. 
+That shows the model works better with a larger dataset
 
