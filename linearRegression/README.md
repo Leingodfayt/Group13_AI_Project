@@ -16,6 +16,7 @@ We tested different configurations for the neural network, some of them are docu
 ## Results
 
 The highest accuracy of the configuration we could achieve was 2.4%.
+
 ![](screenshots/result.png)
 
 ## Conclusion

@@ -9,6 +9,7 @@ For the model to work, it needs predefined classifications as folders and the im
 inside the matching folder.
 For the initial try we created 10 different classes, each with 10% steps between each other.
 So we had folders from 0 up to 90 in steps of 10, to represent the fill level.
+
 ![](screenshots/classes.png)
 
 ## Python code
@@ -21,9 +22,11 @@ We made those changes because our training data, same as the real world data wil
 ## Results
 
 The predictions are only in around 10% of the cases correct.
+
 ![](screenshots/graph.png)
 ---
 Additionally, the model only predicts fill levels of 0 or 10 and nothing else.
+
 ![](screenshots/result.png)
 
 ### Reason for the results
@@ -31,6 +34,7 @@ Additionally, the model only predicts fill levels of 0 or 10 and nothing else.
 It classifies each image with normal words for normal objects instead of "how much of it is filled".
 Therefore it predicts the fill level from a set of words that are mostly the same for every image, because the only
 thing that changes on the images is the fill level.
+
 ![](screenshots/predictions.png)
 
 ## Conclusion
