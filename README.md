@@ -1,7 +1,7 @@
 # Determination of pellet silo fill level from the image
 
 AI project of group 13 in the lecture AI at university of applied sciences Bingen.
-Group 13 (Lucas Theiß, Tobias Mews Illia Kremenenko)
+Group 13 (Lucas Theiß, Tobias Mews, Illia Kremenenko)
 ---
 
 ## The idea
