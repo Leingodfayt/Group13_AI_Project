@@ -8,6 +8,8 @@ Group 13 (Lucas Theiß, Tobias Mews, Illia Kremenenko)
 
 Determine fill level of pellet silo from image
 
+![](screenshots/silo.jpg)
+
 The problem:
 - Silo should be refilled every 5 month
 - If not refilled – no heating and warm water for the
